@@ -1,0 +1,60 @@
+body {
+   
+    background-color: aquamarine;
+}
+
+.card{
+    height: 220px;
+    width: 150px;
+    background-color:white;
+    border-radius: 10px;
+
+
+    border: 1px solid red;
+
+}
+
+#card-content {
+    font-size: 50px;
+
+
+}
+
+.card , #card-first{
+ position: absolute;
+    top:0px;
+    left:0px;
+  
+ 
+   
+}
+.card , #card-second{
+    position: absolute;
+    top:40%;
+    left: 35%;
+
+
+}
+.card ,#card-third{
+
+   position: absolute;
+    bottom: 10px;
+    right: 2px;
+
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color:red;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
